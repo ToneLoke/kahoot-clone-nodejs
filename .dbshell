@@ -1,0 +1,12 @@
+use admin
+use admin
+show dbs
+show dbs
+use admin
+db.grantRolesToUser("kahoot",["readWrite"])
+use admin
+db.grantRolesToUser("kahoot",["readWrite"])
+show dbs
+show collections
+db.grantRolesToUser("kahoot", [ { role: "readWrite", db: "kahootDB" } ])
+show dbs
